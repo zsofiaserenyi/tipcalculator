@@ -39,6 +39,7 @@ class ViewController: UIViewController {
     @IBAction func tipPercengChange(_ sender: Any) {
         tipPercentValue()
         calculateTip()
+        self.dismissKeyboard()
     }
     
     

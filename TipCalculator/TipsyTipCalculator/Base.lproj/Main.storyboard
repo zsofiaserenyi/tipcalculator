@@ -139,8 +139,8 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="qFy-TY-NkK">
                                         <rect key="frame" x="0.0" y="225" width="335" height="56"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="totalIcon" translatesAutoresizingMaskIntoConstraints="NO" id="oGO-33-QuH">
-                                                <rect key="frame" x="0.0" y="30" width="24" height="26"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" translatesAutoresizingMaskIntoConstraints="NO" id="oGO-33-QuH">
+                                                <rect key="frame" x="0.0" y="35" width="24" height="21"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Each:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ag-oo-MKv">
                                                 <rect key="frame" x="136" y="35.5" width="42.5" height="20.5"/>
@@ -191,6 +191,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="people" width="24" height="21"/>
         <image name="tipIcon" width="23" height="23"/>
         <image name="totalIcon" width="24" height="26"/>
     </resources>

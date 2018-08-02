@@ -66,7 +66,7 @@ class ViewController: UIViewController {
     }
     
     func calculateSplitAmount() {
-        tipCalcBrains.splitNumber = Double(splitSlider.value)
+        tipCalcBrains.splitNumber = Double(Int(splitSlider.value))
         updateBillUI2()
     }
     

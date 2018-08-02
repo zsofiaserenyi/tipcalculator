@@ -11,17 +11,6 @@ With this simple app you can easily get the right amount and the best thing is t
 Ordered together but would like to pay separately? Never have been easier! Select the correct number and booooom there it is. No more debates on the dirty wherewithal. 🤑
 
 
-#### How to use it? 🧐
-
-1. Type in your bill amount
-
-2. Select tippercent
-
-3. Select number of people
-
-4. Don't forget to pay...🤪
-
-
 #### What did I learn? 👩🏻‍💻
 
 First of all I would like to highlight that I made the body of this project with [Devslopes][link1]'s help. 
@@ -47,6 +36,30 @@ First of all I would like to highlight that I made the body of this project with
 - Searching for online picture editors which allow you to have your picture in different sizes for only one click and change 
 color if needed. (My favorite one is [this][link2].)
 
+#### How to use it? 🧐
+
+*This is how the app looks like when you open it*
+
+
+
+![](Images/Look.png)
+
+
+
+1. Type in your bill amount
+
+2. Select tippercent
+
+3. Select number of people
+
+4. Don't forget to pay...🤪
+
+
+
+*This is how the app looks like when you selected everything*
+
+
+![](Images/Look2.png)
 
 
 [link1]: <https://devslopes.com/>

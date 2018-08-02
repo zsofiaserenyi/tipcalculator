@@ -38,13 +38,6 @@ color if needed. (My favorite one is [this][link2].)
 
 #### How to use it? 🧐
 
-*This is how the app looks like when you open it*
-
-
-
-![](Images/Look.png)
-
-
 
 1. Type in your bill amount
 
@@ -54,6 +47,11 @@ color if needed. (My favorite one is [this][link2].)
 
 4. Don't forget to pay...🤪
 
+*This is how the app looks like when you open it*
+
+
+
+![](Images/Look.png)
 
 
 *This is how the app looks like when you selected everything*

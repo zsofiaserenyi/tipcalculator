@@ -2,7 +2,7 @@
 
 ### This app helps you calculate the tip and split the total amount if you wish
 
-#### Summery 
+#### Summary 
 
 Ever been in a situation when you had to calculate the tip amount and were just unable to get the right number? (🍷 Probably because you had too much wine in that charmy little restaurant 😉)
 

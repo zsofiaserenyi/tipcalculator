@@ -31,6 +31,8 @@ First of all I would like to highlight that I made the body of this project with
 
 - DismissKeyboard when it is needed. (Clicking anywhere or changing the tippercent)
 
+- Fixed the relation between tippercent and tipamount. Now it is showing the right amount and the correct total amount. 
+
 - Implementing a function which makes the total bill amount splited into desired sections. 
 
 - Searching for online picture editors which allow you to have your picture in different sizes for only one click and change 

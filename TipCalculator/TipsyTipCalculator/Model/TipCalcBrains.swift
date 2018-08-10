@@ -14,7 +14,7 @@ class TipCalcBrains {
     private var _tipPercent: Double = 0
     private var _tipAmount: Double = 0
     private var _totalAmount: Double = 0
-    private var _splitNumber: Double = 0
+    private var _splitNumber: Int = 0
     private var _splitAmount: Double = 0
     
     var billAmount: Double {
@@ -33,7 +33,7 @@ class TipCalcBrains {
         }
     }
     
-    var splitNumber: Double {
+    var splitNumber: Int {
         get {
             return _splitNumber
         } set {

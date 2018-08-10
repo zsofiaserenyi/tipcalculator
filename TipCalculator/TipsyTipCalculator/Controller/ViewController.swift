@@ -50,29 +50,29 @@ class ViewController: UIViewController {
     
     
     func calculateTip() {
-        tipCalcBrains.tipPercent = Double(tipPercentSlider.value)
+        tipCalcBrains.tipPercent = Double(tipPercentSlider.value * 100).rounded(toPlaces: 0)
         tipCalcBrains.billAmount = ((enterBillTF.text)! as NSString).doubleValue
         tipCalcBrains.calculateTip()
         updateBillUI()
     }
     
     func updateBillUI() {
-        totalAmountLabel.text = String(format: "$%0.2f", tipCalcBrains.totalAmount)
-        tipAmountLabel.text = String(format: "$%0.2f", tipCalcBrains.tipAmount)
+        totalAmountLabel.text = String(format: "$%0.2f", tipCalcBrains.tipAmount / 100 + tipCalcBrains.billAmount)
+        tipAmountLabel.text = String(format: "$%0.2f", tipCalcBrains.tipAmount / 100)
     }
     
     
     func tipPercentValue() {
-        tipPercentLabel.text = "Tip: \(Int(tipPercentSlider.value * 100))%"
+        tipPercentLabel.text = "Tip: \(Int(tipCalcBrains.tipPercent))%"
     }
     
     func calculateSplitAmount() {
-        tipCalcBrains.splitNumber = Double(Int(splitSlider.value))
+        tipCalcBrains.splitNumber = Int(splitSlider.value)
         updateBillUI2()
     }
     
     func updateBillUI2() {
-        let splitAmount = tipCalcBrains.totalAmount / tipCalcBrains.splitNumber
+        let splitAmount = tipCalcBrains.totalAmount / Double(tipCalcBrains.splitNumber)
         splitAmountLabel.text = String(format: "$%0.2f", splitAmount)
     }
     
@@ -96,6 +96,13 @@ extension UIViewController {
     
     @objc func dismissKeyboard() {
         view.endEditing(true)
+    }
+}
+
+extension Double {
+    func rounded(toPlaces places:Int) -> Double {
+        let divisor = pow(10.0, Double(places))
+        return (self * divisor).rounded() / divisor
     }
 }
 

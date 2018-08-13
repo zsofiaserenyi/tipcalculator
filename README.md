@@ -18,22 +18,22 @@ First of all I would like to highlight that I made the body of this project with
 
 #### We practised: 🏋
 
-- How to use MVC.
+- How to use **MVC**.
 
-- How to deal with stack views properly.
+- How to deal with **stack views** properly.
 
-- How to use computed properties.
+- How to use **computed properties**.
 
-- Impelementing UISlider. 
+- Impelementing **UISlider**. 
 
 #### What did I do on my own? 💪🏻
 
 
-- DismissKeyboard when it is needed. (Clicking anywhere or changing the tippercent)
+- **DismissKeyboard** when it is needed. (Clicking anywhere or changing the tippercent)
 
-- Implementing a function which makes the total bill amount splited into desired sections. 
+- **Implementing a function** which makes the total bill amount splited into desired sections. 
 
-- Searching for online picture editors which allow you to have your picture in different sizes for only one click and change 
+- **Searching for online picture editors** which allow you to have your picture in different sizes for only one click and change 
 color if needed. (My favorite one is [this][link2].)
 
 #### How to use it? 🧐

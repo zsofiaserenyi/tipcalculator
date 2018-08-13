@@ -46,7 +46,7 @@ class TipCalcBrains {
     }
     
     var totalAmount: Double {
-        return _totalAmount
+        return _billAmount + _tipAmount / 100
     }
     
     var splitAmount: Double {

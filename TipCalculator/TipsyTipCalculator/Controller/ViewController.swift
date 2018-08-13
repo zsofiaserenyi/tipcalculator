@@ -27,7 +27,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
 
@@ -39,6 +38,7 @@ class ViewController: UIViewController {
     @IBAction func tipPercengChange(_ sender: Any) {
         tipPercentValue()
         calculateTip()
+        calculateSplitAmount()
         self.dismissKeyboard()
     }
     
